@@ -1,0 +1,19 @@
+{
+  "name": "mom-project",
+  "version": "1.0.0",
+  "description": "A simple app for talent to select a time proposed by an employer for an interview.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maynard/mom-project.git"
+  },
+  "author": "Maynard Black",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maynard/mom-project/issues"
+  },
+  "homepage": "https://github.com/maynard/mom-project#readme"
+}
