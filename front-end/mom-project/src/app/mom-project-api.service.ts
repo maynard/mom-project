@@ -10,6 +10,6 @@ export class MomProjectApiService {
   constructor(private http: HttpClient) { }
 
   getEmployerSchedules(): Observable<any[]> {
-    return this.http.get<any[]>('/api/employer_schedules', {});
+    return this.http.get<any[]>('http://localhost:3000/api/employer_schedules', {});
   }
 }

@@ -1,22 +1,28 @@
 <div class="header-container center">
-
   <div class="header center">
-    <img height="20px" src="https://www.themomproject.com/assets/tmp-logo-931f836dc798b31ec217574001c229d98cc15aff4e41dfed84b18fddc7998886.svg">
+    <img height="20px"
+      src="https://www.themomproject.com/assets/tmp-logo-931f836dc798b31ec217574001c229d98cc15aff4e41dfed84b18fddc7998886.svg">
   </div>
-
 </div>
-
 <div class="container center">
-
   <div class="content-container center">
     <div class="content">
       <h2>Please choose a time slot for your interview:</h2>
     </div>
-
     <div class="content">
-        <li *ngFor="let schedule of schedules$ | async">{{schedule.start_time}}</li>
+      <table>
+        <tr *ngFor="let schedule of schedules$ | async">
+          
+            <td width="300px">
+              <li>{{schedule.start_time | date: 'medium' }}</li>
+            </td>
+            <td width="200px"><input width="200px" placeholder="Your Emaill Address" type="email" required></td>
+            <td width="100px">
+              <button type="submit">Select</button>
+            </td>
+          
+        </tr>
+      </table>
     </div>
-
-  </div>"
-
+  </div>
 </div>
