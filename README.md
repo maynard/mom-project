@@ -17,8 +17,6 @@ Summary of things you learned
 Push often to show my progress
 Keep a log of my thoughts here
 
-
-
 How to run your app
 
 Server:
@@ -33,12 +31,3 @@ cd front-end/mom-project
 ng serve
 navigate to localhost:4200
 
-How you would test it
-
-
-
-Places you struggled
-
-
-
-Things you’re proud of
